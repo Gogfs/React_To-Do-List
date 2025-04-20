@@ -6,7 +6,7 @@ const Footer = (props) => {
 
     return(
         <div className={style.Footer}>
-           React Básico - {year} - {name}
+           Basic React - {year} - {name}
         </div>
     )
 }

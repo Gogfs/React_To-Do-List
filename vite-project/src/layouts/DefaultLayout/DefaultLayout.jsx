@@ -3,7 +3,7 @@ import { Footer, Header } from "../../components"
 import { useAppContext } from "../../hooks/useAppContext"
 
 const DefaultLayout = () => {
-    const { name } = useAppContext
+    const { name } = useAppContext()
     return (
         <>
             <Header />
